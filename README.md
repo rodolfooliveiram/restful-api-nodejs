@@ -5,7 +5,7 @@ API RESTful desenvolvida com Node.js durante os estudos de fundamentos de Node.j
 ## Para rodar essa API
 
 - Baixe os arquivos;
-- Abra o terminal na diretório onde estão os arquivos da API;
+- Abra o terminal no diretório onde estão os arquivos da API;
 - Execute o comando `npm run dev`;
 - Para fazer requisições à API, utilize uma API client como Insomnia ou Postman.
 
