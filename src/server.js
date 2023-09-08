@@ -3,6 +3,7 @@ import { json } from './middlewares/json.js';
 import { routes } from './routes.js';
 import { extractQueryParams } from './utils/extract-query-params.js';
 
+const port = 3333;
 const server = http.createServer(async (req, res) => {
   const { method, url } = req;
 
@@ -26,4 +27,5 @@ const server = http.createServer(async (req, res) => {
   return res.writeHead(404).end();
 });
 
-server.listen(3333);
+server.listen(port);
+console.log(`The server is running on localhost:${port}`);
